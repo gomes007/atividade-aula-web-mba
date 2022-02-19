@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>MBA FULL STACK</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+	<br>
+
+		<header>
+			<div class="container">
+				<h1>AULA WEB</h1>
+			</div>
+		</header>
+
+		<!-- ... -->
+		<section class="container">
+			
+			<ul id='mensagens-erro'>
+				
+			</ul>
+			<form id="form-adiciona">
+
+				<div class="grupo">
+					<label for="peso">Peso:</label>
+					<input id="peso" name="peso" type="text" placeholder="digite o peso" class="campo campo-medio">
+				</div>
+
+				<div class="grupo">
+					<label for="altura">Altura:</label>
+					<input id="altura" name="altura" type="text" placeholder="digite a altura" class="campo campo-medio">
+				</div>
+
+				<button id="adicionar-item" class="botao bto-principal">Adicionar</button>
+	
+			</form>
+		</section>
+
+	</br>
+
+		<main>
+			<section class="container">
+				<h1>Calculo de IMC</h1>
+				
+				<table>
+					<thead>
+						<tr>
+							<th>Peso(kg)</th>
+							<th>Altura(m)</th>
+							<th>IMC</th>
+						</tr>
+					</thead>
+					<tbody id="tabela-items">
+
+					</tbody>
+				</table>
+				
+				<button id="buscar-items" class="botao bto-principal">Buscar API</button>
+
+			</section>
+			
+		</main>
+
+
+
+		<script src="js/calcula-imc.js"></script>
+		<script src="js/form.js"></script>
+		<script src="js/buscar-items.js"></script>
+		<script src="js/remover-item.js"></script> 
+
+
+	</body>
+</html>
